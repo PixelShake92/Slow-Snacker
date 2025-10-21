@@ -5,27 +5,25 @@
 
 # Unique ID of this mod. Pick something long enough that it'll never be the same as any other mod.
 # The name displayed in the mod management menu is separate from this so this doesn't need to be human readable.
-id = "bk_recomp_mod_template"
+id = "slow_snacker"
 
 # Version of this mod.
 version = "1.0.0"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
-display_name = "Always Tumble Jump"
+display_name = "Slow Snacker"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """
-This is an example mod for Banjo-Kazooie: Recompiled that can be used as a template for creating mods. \
-When this mod is enabled, you will always tumble immediately after jumping.
-
-For more details, see https://github.com/BanjoRecomp/BKRecompModTemplate."""
+Snacker is a bit aggressive. This mod significantly slows him down allowing the player more time to flee to safety. 
+"""
 
 # A short description that will show up in this mod's entry in the mod list. This should be human readable and kept short
 # to prevent it from being cut off due to the limited space.
-short_description = "Always tumble immediately after jumping."
+short_description = "Snacker had too many snacks..."
 
 # Authors of this mod.
-authors = [ "Your name here" ]
+authors = [ "PixelShake92" ]
 
 # ID of the target recomp game.
 game_id = "bk"
@@ -52,11 +50,11 @@ native_libraries = [
 elf_path = "build/mod.elf"
 
 # Output mod filename.
-mod_filename = "bk_recomp_mod_template"
+mod_filename = "slow_snacker"
 
 # Reference symbol files.
 func_reference_syms_file = "BanjoRecompSyms/bk.us.rev0.syms.toml"
 data_reference_syms_files = [ "BanjoRecompSyms/bk.us.rev0.datasyms.toml", "BanjoRecompSyms/bk.us.rev0.datasyms_static.toml" ]
 
 # Additional files to include in the mod.
-additional_files = [ ]
+additional_files = [ "thumb.png" ]
